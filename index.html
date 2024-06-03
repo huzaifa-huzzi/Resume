@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huzaifa's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shorcut icon" type="x-icon" href ="pic-2.png">
+    <script src="index.js" defer></script> <!-- Include the JavaScript file -->
+    <script src="https://kit.fontawesome.com/72cce1d41e.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logo-2.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i></li> <!-- Moved the icon inside its own <li> -->
+          </ul>
+          
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="text">
+          <p>I'm  Software engineer</p>
+          <h1>I'm  <span class="auto-Typed" >Flutter Developer</span></h1>
+          
+        </div>
+      </div>
+<div class="image">
+  <img src="pic.png">
+</div>
+        
+      
+    </div>
+    
+   
+    <!---------About Section---------->
+
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+     <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="pic-3.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>As a versatile software engineer, I specialize in Flutter app development, combining my expertise in UI/UX design and web development to craft seamless digital experiences. With a keen eye for aesthetics and a passion for clean, efficient code, I create user-friendly interfaces that captivate and engage audiences across platforms. From mobile applications to web solutions, I am dedicated to delivering innovative solutions that exceed expectations and drive meaningful results.</p>
+
+            <div class="tab-title">
+              <p class="tab-Links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-Links" onclick="opentab('experiences')">Experiences</p>
+              <p class="tab-Links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                 <li><a><span>Flutter</span><br> App development</a></li>
+                 <li><a><span>UI/UX</span><br>Designing</a></li>
+                 <li><a><span>Web Developer</span><br>Web Designer</a></li>
+              </ul>
+            </div>
+
+            <div class="tab-content" id="experiences">
+              <ul>
+                 <li><a><span>2023 - Current</span><br> Flutter Developer</a></li>
+                 <li><a><span>2023 - Current</span><br> UI/UX Designer</a></li>
+                 <li><a><span>2020-2022</span><br></a> Web development</li>
+              </ul>
+            </div>
+
+            <div class="tab-content" id="education">
+              <ul>
+                 <li><a><span>2021</span><br> Sir Syed School and College campus 9</a></li>
+                 <li><a><span>2023</span><br> Kips College Wahcantt</a></li>
+                 
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+         
+</div>
+    
+     
+    <!-------------Services Section-------------------->
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
+    <div id="services">
+      <div class="container">
+       <h1 class="subtitle">My Services</h1>
+       <div class="services-list">
+
+            <div>
+             <i class="fa-brands fa-app-store-ios"></i>
+             <h2>Flutter Developer</h2>
+             <p>Crafting dynamic cross-platform solutions, our Flutter services ensure seamless app development, migration, UI/UX design, performance optimization, QA, and ongoing support. Partner with us for innovative, reliable solutions.</p>
+             
+            </div>
+
+
+            <div>
+             <i class="fa-solid fa-crop-simple"></i>
+             <h2>UI/UX Designer </h2>
+             <p>Unlocking captivating user experiences, our UI/UX design services blend innovation with functionality. From sleek interfaces to intuitive interactions, we craft designs that elevate user engagement and satisfaction, ensuring your digital presence stands out.</p>
+             
+            </div>
+
+            <div>
+              <i class="fa-brands fa-web-awesome"></i>
+             <h2>Web Designer </h2>
+             <p>Transform your online presence with stunning, user-friendly websites tailored to your brand's unique identity. Expert web designer creating visually compelling and highly functional websites that captivate and convert. Specializing in custom web design, I deliver engaging digital experiences that drive results and elevate your brand.</p>
+             
+            </div>
+
+
+       </div>
+
+      </div>
+</div>
+</div>
+                 
+
+<!-----------Portfolio Section--------------->
+<div data-aos="fade-up"
+data-aos-duration="3000">
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="subtitle">My Work</h1>
+      
+     <div class="work-List">
+       <div class="work">
+        <img src="Screenshot 2023-12-20 162537.png" >
+         <div class="layer">
+          <h3>Covid App  --Flutter</h3>
+          <p>Empower yourself with real-time COVID-19 updates and resources with our Flutter-based app. Stay informed about the latest statistics, track symptoms, find nearby testing centers, and access verified information from health authorities. With intuitive design and seamless navigation, our app is your essential companion in navigating the pandemic safely.</p>
+          <a href="https://github.com/huzaifa-huzzi/Covid-19-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+         </div>
+       </div>
+
+       <div class="work">
+        <img src="Screenshot 2024-04-06 022141.png">
+        <div class="layer">
+          <h3>Furniture Store --Flutter</h3>
+          <p>Discover stylish furniture for every room in our Flutter-powered Furniture Store app. Browse, shop, and transform your space with ease. Effortless shopping, seamless delivery tracking, and secure payments await. Redefine your home décor effortlessly today!</p>
+          <a href="https://github.com/huzaifa-huzzi/Furniture-Store-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+         </div>
+       </div>
+     </div>
+     <a href="C:\Users\Huzaifa\Pictures\Saved Pictures\My Portfolio Website\SeeMore.html" class="btn">See more</a>
+  </div>
+
+</div>
+
+</div>
+   
+   <!-------------Contact  Section-------------------->
+
+   <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="subtitle">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>huzaifaatta8152@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+923315178220</p>
+          <p><i class="fa-solid fa-phone"></i>+9203333830891</p>
+          <div class="social-icons">
+             <a href="https://www.facebook.com/profile.php?id=100082221821643"><i class="fa-brands fa-facebook"></i></a>
+             <a href="https://www.instagram.com/iam_huzaifaatta156/"><i class="fa-brands fa-square-instagram"></i></a>
+             <a href="https://github.com/huzaifa-huzzi"><i class="fa-brands fa-github"></i></a>
+             <a href="https://www.linkedin.com/in/huzaifa-khan-atta/"><i class="fa-brands fa-linkedin"></i></a>
+             <a href="https://www.behance.net/huzaifaatta152"><i class="fa-brands fa-behance"></i></a>
+             <a href="https://www.fiverr.com/huxaifakhan8152?up_rollout=true"><i class="fa-brands fa-google-play"></i></a>
+
+          </div>
+
+          <a href="Flutter.docx" download class="btn btn2">Download CV </a>
+
+        </div>
+          <div class="contact-right">
+<form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+               <span id="msg"></span>
+          </div>
+               
+      </div>
+    </div>
+    
+  </div>
+
+
+
+<div class="copyright">
+  <p>copyright of @Huzaifa khan with <i class="fa-solid fa-heart"></i> By Huzaifa khan </p>
+</div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
